@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=Movie
+comment0.text=\r\n\ A\ Class\ to\ hold\ Movie\ Facts\r\n\r\n\ @author\ (Mr.\ Kim)\r\n\ @version\ (2019-11-16)\r\n\ \r\n
+comment1.params=name\ studio\ rating\ year
+comment1.target=Movie(java.lang.String,\ java.lang.String,\ double,\ int)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Movie\r\n
+comment2.params=
+comment2.target=java.lang.String\ getName()
+comment3.params=
+comment3.target=java.lang.String\ getStudio()
+comment4.params=
+comment4.target=double\ getRating()
+comment5.params=
+comment5.target=int\ getYear()
+comment6.params=
+comment6.target=java.lang.String\ toString()
+numComments=7
