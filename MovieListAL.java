@@ -64,11 +64,13 @@ public class MovieListAL
     public ArrayList<Movie> findHighestRatedByStudio()
     {
         ArrayList<Movie> highestRated = new ArrayList<Movie>();
-        
-        // Your code goes here
-         return null;
-        // return highestRated;
-        
+        highestRated.add(getHighestrating(getByStudio("Ghibli")));
+        highestRated.add(getHighestrating(getByStudio("Disney")));
+        highestRated.add(getHighestrating(getByStudio("Indy")));
+        highestRated.add(getHighestrating(getByStudio("Toho")));
+        highestRated.add(getHighestrating(getByStudio("ops")));
+        highestRated.add(getHighestrating(getByStudio("oops")));
+        return highestRated;
     }
 
 }
