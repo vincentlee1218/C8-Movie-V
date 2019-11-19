@@ -1,17 +1,13 @@
 import java.util.ArrayList;
-
-
 /**
- * Write a description of class ArrayListDriver here.
+ * A Class to run the Movie classes k   k   
  *
- * @author (your name)
- * @version (a version number or a date)
+ * @author (Mr. Kim)
+ * @version (2019-11-16)
+ * 
  */
-public class MovieDriver
-{
-    
-    public static void main(String[] args)
-    {
+public class MovieDriver {
+    public static void main(String[] args) {
         Movie moana   = new Movie("Moana", "Disney", 7.6, 2016);
         Movie frozen  = new Movie("Frozen", "Disney", 7.5, 2013);
         Movie bh6     = new Movie("Big Hero 6", "Disney", 7.8, 2014);
@@ -47,6 +43,6 @@ public class MovieDriver
        
         ArrayList<Movie> highestRated = movieList.findHighestRatedByStudio();
         for (int i=0 ; i<highestRated.size() ; i++)
-           System.out.println(highestRated.get(i));
+            System.out.println(highestRated.get(i));
     }
 }
